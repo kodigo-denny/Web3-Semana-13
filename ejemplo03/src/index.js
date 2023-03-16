@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Calculadora from './Components/Calculadora';
+import Contador from './Components/Contador';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Calculadora></Calculadora>
-    <Calculadora />
-    <Calculadora />
+    <Contador></Contador>
   </div>
 );
 

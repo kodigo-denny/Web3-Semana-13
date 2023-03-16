@@ -14,7 +14,7 @@ class Boton extends React.Component{
     }
 
     render(){
-        return <button className={`btn btn-${this.props.estilo===undefined ? "secondary" : this.props.estilo} col-${this.state.columna}`}>{this.props.children}</button>
+        return <button onClick={this.props.evento} className={`btn btn-${this.props.estilo===undefined ? "secondary" : this.props.estilo} col-${this.state.columna}`}>{this.props.children}</button>
     }
 
     /*
